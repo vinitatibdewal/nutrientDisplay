@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display_message"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.vinita.nutrients.DisplayMessageActivity">
+
+    <TextView
+        android:text="TextView"
+        android:id="@+id/tvnext"
+        android:layout_height="45dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="100dp" />
+
+    <TextView
+        android:text="TextView"
+        android:id="@+id/tvnext2"
+        android:layout_height="45dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="153dp"
+        android:layout_below="@+id/tvnext1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="100dp" />
+
+    <TextView
+        android:text="TextView"
+        android:id="@+id/tvnext1"
+        android:layout_height="45dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="108dp"
+        android:layout_below="@+id/tvnext"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="100dp" />
+
+    <TextView
+        android:text="Carbohydrates  :"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView2"
+        android:layout_toStartOf="@+id/tvnext"
+        android:textSize="30sp"
+        android:layout_width="300dp"
+        android:layout_toLeftOf="@+id/tvnext" />
+
+    <TextView
+        android:text="Fats                    :"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:id="@+id/textView3"
+        android:textSize="30sp"
+        android:layout_alignBaseline="@+id/tvnext1"
+        android:layout_alignBottom="@+id/tvnext1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:text="Proteins             :"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/tvnext2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView4"
+        android:textSize="30sp" />
+
+</RelativeLayout>
